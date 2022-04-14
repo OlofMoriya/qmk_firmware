@@ -34,57 +34,57 @@
  * └─────┴────┴─────┴───────────────────────┴─────┴────┴─────┘
  */
 // Row 1
-#define SE_SECT KC_GRV  // §
-#define SE_1    KC_1    // 1
-#define SE_2    KC_2    // 2
-#define SE_3    KC_3    // 3
-#define SE_4    KC_4    // 4
-#define SE_5    KC_5    // 5
-#define SE_6    KC_6    // 6
-#define SE_7    KC_7    // 7
-#define SE_8    KC_8    // 8
-#define SE_9    KC_9    // 9
-#define SE_0    KC_0    // 0
-#define SE_PLUS KC_MINS // +
-#define SE_ACUT KC_EQL  // ´ (dead)
+#define SEX_SECT KC_GRV  // §
+#define SEX_1    KC_1    // 1
+#define SEX_2    KC_2    // 2
+#define SEX_3    KC_3    // 3
+#define SEX_4    KC_4    // 4
+#define SEX_5    KC_5    // 5
+#define SEX_6    KC_6    // 6
+#define SEX_7    KC_7    // 7
+#define SEX_8    KC_8    // 8
+#define SEX_9    KC_9    // 9
+#define SEX_0    KC_0    // 0
+#define SEX_PLUS KC_MINS // +
+#define SEX_ACUT KC_EQL  // ´ (dead)
 // Row 2
-#define SE_Q    KC_Q    // Q
-#define SE_W    KC_W    // W
-#define SE_E    KC_E    // E
-#define SE_R    KC_R    // R
-#define SE_T    KC_T    // T
-#define SE_Y    KC_Y    // Y
-#define SE_U    KC_U    // U
-#define SE_I    KC_I    // I
-#define SE_O    KC_O    // O
-#define SE_P    KC_P    // P
-#define SE_ARNG KC_LBRC // Å
-#define SE_DIAE KC_RBRC // ¨ (dead)
+#define SEX_Q    KC_Q    // Q
+#define SEX_W    KC_W    // W
+#define SEX_E    KC_E    // E
+#define SEX_R    KC_R    // R
+#define SEX_T    KC_T    // T
+#define SEX_Y    KC_Y    // Y
+#define SEX_U    KC_U    // U
+#define SEX_I    KC_I    // I
+#define SEX_O    KC_O    // O
+#define SEX_P    KC_P    // P
+#define SEX_ARNG KC_LBRC // Å
+#define SEX_DIAE KC_RBRC // ¨ (dead)
 // Row 3
-#define SE_A    KC_A    // A
-#define SE_S    KC_S    // S
-#define SE_D    KC_D    // D
-#define SE_F    KC_F    // F
-#define SE_G    KC_G    // G
-#define SE_H    KC_H    // H
-#define SE_J    KC_J    // J
-#define SE_K    KC_K    // K
-#define SE_L    KC_L    // L
-#define SE_ODIA KC_SCLN // Ö
-#define SE_ADIA KC_QUOT // Ä
-#define SE_QUOT KC_NUHS // '
+#define SEX_A    KC_A    // A
+#define SEX_S    KC_S    // S
+#define SEX_D    KC_D    // D
+#define SEX_F    KC_F    // F
+#define SEX_G    KC_G    // G
+#define SEX_H    KC_H    // H
+#define SEX_J    KC_J    // J
+#define SEX_K    KC_K    // K
+#define SEX_L    KC_L    // L
+#define SEX_ODIA KC_SCLN // Ö
+#define SEX_ADIA KC_QUOT // Ä
+#define SEX_QUOT KC_NUHS // '
 // Row 4
-#define SE_LABK KC_NUBS // <
-#define SE_Z    KC_Z    // Z
-#define SE_X    KC_X    // X
-#define SE_C    KC_C    // C
-#define SE_V    KC_V    // V
-#define SE_B    KC_B    // B
-#define SE_N    KC_N    // N
-#define SE_M    KC_M    // M
-#define SE_COMM KC_COMM // ,
-#define SE_DOT  KC_DOT  // .
-#define SE_MINS KC_SLSH // -
+#define SEX_LABK KC_NUBS // <
+#define SEX_Z    KC_Z    // Z
+#define SEX_X    KC_X    // X
+#define SEX_C    KC_C    // C
+#define SEX_V    KC_V    // V
+#define SEX_B    KC_B    // B
+#define SEX_N    KC_N    // N
+#define SEX_M    KC_M    // M
+#define SEX_COMM KC_COMM // ,
+#define SEX_DOT  KC_DOT  // .
+#define SEX_MINS KC_SLSH // -
 
 /* Shifted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬─────┐
@@ -100,28 +100,28 @@
  * └─────┴────┴─────┴───────────────────────┴─────┴────┴─────┘
  */
 // Row 1
-#define SE_DEG S(SE_SECT)  // °
-#define SE_EXLM S(SE_1)    // !
-#define SE_DQUO S(SE_2)    // "
-#define SE_HASH S(SE_3)    // #
-#define SE_EURO S(SE_4)    // €
-#define SE_PERC S(SE_5)    // %
-#define SE_AMPR S(SE_6)    // &
-#define SE_SLSH S(SE_7)    // /
-#define SE_LPRN S(SE_8)    // (
-#define SE_RPRN S(SE_9)    // )
-#define SE_EQL  S(SE_0)    // =
-#define SE_QUES S(SE_PLUS) // ?
-#define SE_GRV  S(SE_ACUT) // `
+#define SEX_DEG S(SEX_SECT)  // °
+#define SEX_EXLM S(SEX_1)    // !
+#define SEX_DQUO S(SEX_2)    // "
+#define SEX_HASH S(SEX_3)    // #
+#define SEX_EURO S(SEX_4)    // €
+#define SEX_PERC S(SEX_5)    // %
+#define SEX_AMPR S(SEX_6)    // &
+#define SEX_SLSH S(SEX_7)    // /
+#define SEX_LPRN S(SEX_8)    // (
+#define SEX_RPRN S(SEX_9)    // )
+#define SEX_EQL  S(SEX_0)    // =
+#define SEX_QUES S(SEX_PLUS) // ?
+#define SEX_GRV  S(SEX_ACUT) // `
 // Row 2
-#define SE_CIRC S(SE_DIAE) // ^ (dead)
+#define SEX_CIRC S(SEX_DIAE) // ^ (dead)
 // Row 3
-#define SE_ASTR S(SE_QUOT) // *
+#define SEX_ASTR S(SEX_QUOT) // *
 // Row 4
-#define SE_RABK S(SE_LABK) // >
-#define SE_SCLN S(SE_COMM) // ;
-#define SE_COLN S(SE_DOT)  // :
-#define SE_UNDS S(SE_MINS) // _
+#define SEX_RABK S(SEX_LABK) // >
+#define SEX_SCLN S(SEX_COMM) // ;
+#define SEX_COLN S(SEX_DOT)  // :
+#define SEX_UNDS S(SEX_MINS) // _
 
 /* Alted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬─────┐
@@ -137,54 +137,54 @@
  * └─────┴────┴─────┴───────────────────────┴─────┴────┴─────┘
  */
 // Row 1 
-#define SE_PILC A(SE_SECT) // ¶
-#define SE_COPY A(SE_1)    // ©
-#define SE_TM   A(SE_2)    // ™
-#define SE_PND  A(SE_3)    // £
-#define SE_DLR  A(SE_4)    // $
-#define SE_INFN A(SE_5)    // ∞
-#define SE_PIPE A(SE_7)    // |
-#define SE_LBRC A(SE_8)    // [
-#define SE_RBRC A(SE_9)    // ]
-#define SE_AEQL A(SE_0)    // ≈
-#define SE_PLMN A(SE_PLUS) // ±
+#define SEX_PILC A(SEX_SECT) // ¶
+#define SEX_COPY A(SEX_1)    // ©
+#define SEX_TM   A(SEX_2)    // ™
+#define SEX_PND  A(SEX_3)    // £
+#define SEX_DLR  A(SEX_4)    // $
+#define SEX_INFN A(SEX_5)    // ∞
+#define SEX_PIPE A(SEX_7)    // |
+#define SEX_LBRC A(SEX_8)    // [
+#define SEX_RBRC A(SEX_9)    // ]
+#define SEX_AEQL A(SEX_0)    // ≈
+#define SEX_PLMN A(SEX_PLUS) // ±
 // Row 2
-#define SE_BULT A(SE_Q)    // •
-#define SE_OMEG A(SE_W)    // Ω
-#define SE_EACU A(SE_E)    // É
-#define SE_REGD A(SE_R)    // ®
-#define SE_DAGG A(SE_T)    // †
-#define SE_MICR A(SE_Y)    // µ
-#define SE_UDIA A(SE_U)    // Ü
-#define SE_DLSI A(SE_I)    // ı
-#define SE_OE   A(SE_O)    // Œ
-#define SE_PI   A(SE_P)    // π
-#define SE_DOTA A(SE_ARNG) // ˙
-#define SE_TILD A(SE_DIAE) // ~ (dead)
+#define SEX_BULT A(SEX_Q)    // •
+#define SEX_OMEG A(SEX_W)    // Ω
+#define SEX_EACU A(SEX_E)    // É
+#define SEX_REGD A(SEX_R)    // ®
+#define SEX_DAGG A(SEX_T)    // †
+#define SEX_MICR A(SEX_Y)    // µ
+#define SEX_UDIA A(SEX_U)    // Ü
+#define SEX_DLSI A(SEX_I)    // ı
+#define SEX_OE   A(SEX_O)    // Œ
+#define SEX_PI   A(SEX_P)    // π
+#define SEX_DOTA A(SEX_ARNG) // ˙
+#define SEX_TILD A(SEX_DIAE) // ~ (dead)
 // Row 3
-#define SE_APPL A(SE_A)    //  (Apple logo)
-#define SE_SS   A(SE_S)    // ß
-#define SE_PDIF A(SE_D)    // ∂
-#define SE_FHK  A(SE_F)    // ƒ
-#define SE_CEDL A(SE_G)    // ¸
-#define SE_OGON A(SE_H)    // ˛
-#define SE_SQRT A(SE_J)    // √
-#define SE_FORD A(SE_K)    // ª
-#define SE_FI   A(SE_L)    // ﬁ
-#define SE_OSTR A(SE_ODIA) // Ø
-#define SE_AE   A(SE_ADIA) // Æ
-#define SE_AT   A(SE_QUOT) // @
+#define SEX_APPL A(SEX_A)    //  (Apple logo)
+#define SEX_SS   A(SEX_S)    // ß
+#define SEX_PDIF A(SEX_D)    // ∂
+#define SEX_FHK  A(SEX_F)    // ƒ
+#define SEX_CEDL A(SEX_G)    // ¸
+#define SEX_OGON A(SEX_H)    // ˛
+#define SEX_SQRT A(SEX_J)    // √
+#define SEX_FORD A(SEX_K)    // ª
+#define SEX_FI   A(SEX_L)    // ﬁ
+#define SEX_OSTR A(SEX_ODIA) // Ø
+#define SEX_AE   A(SEX_ADIA) // Æ
+#define SEX_AT   A(SEX_QUOT) // @
 // Row 4
-#define SE_LTEQ A(SE_LABK) // ≤
-#define SE_DIV  A(SE_Z)    // ÷
-#define SE_CCED A(SE_C)    // Ç
-#define SE_LSAQ A(SE_V)    // ‹
-#define SE_RSAQ A(SE_B)    // ›
-#define SE_LSQU A(SE_N)    // ‘
-#define SE_RSQU A(SE_M)    // ’
-#define SE_SLQU A(SE_COMM) // ‚
-#define SE_ELLP A(SE_DOT)  // …
-#define SE_NDSH A(SE_MINS) // –
+#define SEX_LTEQ A(SEX_LABK) // ≤
+#define SEX_DIV  A(SEX_Z)    // ÷
+#define SEX_CCED A(SEX_C)    // Ç
+#define SEX_LSAQ A(SEX_V)    // ‹
+#define SEX_RSAQ A(SEX_B)    // ›
+#define SEX_LSQU A(SEX_N)    // ‘
+#define SEX_RSQU A(SEX_M)    // ’
+#define SEX_SLQU A(SEX_COMM) // ‚
+#define SEX_ELLP A(SEX_DOT)  // …
+#define SEX_NDSH A(SEX_MINS) // –
 
 /* Shift+Alted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬─────┐
@@ -200,40 +200,40 @@
  * └─────┴────┴─────┴───────────────────────┴─────┴────┴─────┘
  */
 // Row 1
-#define SE_IEXL S(A(SE_1))    // ¡
-#define SE_YEN  S(A(SE_3))    // ¥
-#define SE_CENT S(A(SE_4))    // ¢
-#define SE_PERM S(A(SE_5))    // ‰
-#define SE_BSLS S(A(SE_7))    // (backslash)
-#define SE_LCBR S(A(SE_8))    // {
-#define SE_RCBR S(A(SE_9))    // }
-#define SE_NEQL S(A(SE_0))    // ≠
-#define SE_IQUE S(A(SE_PLUS)) // ¿
+#define SEX_IEXL S(A(SEX_1))    // ¡
+#define SEX_YEN  S(A(SEX_3))    // ¥
+#define SEX_CENT S(A(SEX_4))    // ¢
+#define SEX_PERM S(A(SEX_5))    // ‰
+#define SEX_BSLS S(A(SEX_7))    // (backslash)
+#define SEX_LCBR S(A(SEX_8))    // {
+#define SEX_RCBR S(A(SEX_9))    // }
+#define SEX_NEQL S(A(SEX_0))    // ≠
+#define SEX_IQUE S(A(SEX_PLUS)) // ¿
 // Row 2
-#define SE_DACU S(A(SE_W))    // ˝
-#define SE_DDAG S(A(SE_T))    // ‡
-#define SE_STIL S(A(SE_Y))    // ˜
-#define SE_DCIR S(A(SE_I))    // ˆ
-#define SE_NARP S(A(SE_P))    // ∏
-#define SE_RNGA S(A(SE_ARNG)) // ˚
+#define SEX_DACU S(A(SEX_W))    // ˝
+#define SEX_DDAG S(A(SEX_T))    // ‡
+#define SEX_STIL S(A(SEX_Y))    // ˜
+#define SEX_DCIR S(A(SEX_I))    // ˆ
+#define SEX_NARP S(A(SEX_P))    // ∏
+#define SEX_RNGA S(A(SEX_ARNG)) // ˚
 // Row 3
-#define SE_LOZN S(A(SE_A))    // ◊
-#define SE_NARS S(A(SE_S))    // ∑
-#define SE_INCR S(A(SE_D))    // ∆
-#define SE_INTG S(A(SE_F))    // ∫
-#define SE_MACR S(A(SE_G))    // ¯
-#define SE_BREV S(A(SE_H))    // ˘
-#define SE_NOT  S(A(SE_J))    // ¬
-#define SE_MORD S(A(SE_K))    // º
-#define SE_FL   S(A(SE_L))    // ﬂ
+#define SEX_LOZN S(A(SEX_A))    // ◊
+#define SEX_NARS S(A(SEX_S))    // ∑
+#define SEX_INCR S(A(SEX_D))    // ∆
+#define SEX_INTG S(A(SEX_F))    // ∫
+#define SEX_MACR S(A(SEX_G))    // ¯
+#define SEX_BREV S(A(SEX_H))    // ˘
+#define SEX_NOT  S(A(SEX_J))    // ¬
+#define SEX_MORD S(A(SEX_K))    // º
+#define SEX_FL   S(A(SEX_L))    // ﬂ
 // Row 4
-#define SE_GTEQ S(A(SE_LABK)) // ≥
-#define SE_FRSL S(A(SE_Z))    // ⁄
-#define SE_CARN S(A(SE_X))    // ˇ
-#define SE_LDAQ S(A(SE_V))    // «
-#define SE_RDAQ S(A(SE_B))    // »
-#define SE_LDQU S(A(SE_N))    // “
-#define SE_RDQU S(A(SE_M))    // ”
-#define SE_DLQU S(A(SE_COMM)) // „
-#define SE_MDDT S(A(SE_DOT))  // ·
-#define SE_MDSH S(A(SE_MINS)) // —
+#define SEX_GTEQ S(A(SEX_LABK)) // ≥
+#define SEX_FRSL S(A(SEX_Z))    // ⁄
+#define SEX_CARN S(A(SEX_X))    // ˇ
+#define SEX_LDAQ S(A(SEX_V))    // «
+#define SEX_RDAQ S(A(SEX_B))    // »
+#define SEX_LDQU S(A(SEX_N))    // “
+#define SEX_RDQU S(A(SEX_M))    // ”
+#define SEX_DLQU S(A(SEX_COMM)) // „
+#define SEX_MDDT S(A(SEX_DOT))  // ·
+#define SEX_MDSH S(A(SEX_MINS)) // —
