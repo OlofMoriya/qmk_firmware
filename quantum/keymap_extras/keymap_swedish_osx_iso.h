@@ -173,7 +173,7 @@
 #define SEX_FI   A(SEX_L)    // ﬁ
 #define SEX_OSTR A(SEX_ODIA) // Ø
 #define SEX_AE   A(SEX_ADIA) // Æ
-#define SEX_AT   A(SEX_QUOT) // @
+#define SEX_AT   A(KC_2) // @
 // Row 4
 #define SEX_LTEQ A(SEX_LABK) // ≤
 #define SEX_DIV  A(SEX_Z)    // ÷
