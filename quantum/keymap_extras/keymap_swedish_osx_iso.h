@@ -74,7 +74,7 @@
 #define SEX_ADIA KC_QUOT // Ä
 #define SEX_QUOT KC_NUHS // '
 // Row 4
-#define SEX_LABK KC_NUBS // <
+#define SEX_LABK KC_GRV // <
 #define SEX_Z    KC_Z    // Z
 #define SEX_X    KC_X    // X
 #define SEX_C    KC_C    // C
