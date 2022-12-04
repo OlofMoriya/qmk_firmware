@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,  KC_I,    KC_O,    KC_P,     SE_ARNG,
         CS_TABFN, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,  KC_K,    KC_L,    SE_ODIA,  SE_ADIA,
         KC_LSFT,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,  KC_COMM, KC_DOT,  SE_MINS,  KC_ENT ,
-        KC_LCTL,  KC_LGUI, KC_LALT, KC_LALT, MO(1),   KC_SPC,  KC_SPC,  MO(2), S(KC_COMM), S(KC_DOT), KC_DOWN, KC_UP
+        KC_LCTL,  KC_LGUI, KC_LALT, KC_BSPC, MO(1),   KC_SPC,  KC_SPC,  MO(2), S(KC_COMM), S(KC_DOT), KC_DOWN, KC_UP
     ),
 /* Lower
  * ,-----------------------------------------------------------------------------------.
@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F2  , _______, SE_DQUO, SE_HASH, SE_AT,   NO_TILD, SE_PERC, SE_LCBR, SE_RCBR, SE_EXLM,    SE_PLUS, SE_MINS,
         KC_F12 , _______, KC_BSLS, SE_ASTR, SE_BSLS, NO_CIRC, SE_DLR,  SE_LBRC, SE_RBRC, SE_LABK,    SE_QUES, SE_EXLM,
         _______, _______, KC_F12,  SE_AMPR, SE_SLSH, SE_PIPE, SE_EQL,  SE_LPRN, SE_RPRN, SE_RABK,    SE_ASTR, SE_EQL,
-        MORNING, GARN   , _______, _______, _______, KC_BSPC, KC_BSPC, MO(_ADJUST), _______, _______, _______, _______
+        MORNING, GARN   , _______, _______, _______, _______, _______, MO(_ADJUST), _______, _______, _______, _______
     ),
 /* Raise
  * ,-----------------------------------------------------------------------------------.
@@ -86,13 +86,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,   KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,  KC_I,    KC_O,    KC_P,     SEX_ARNG,
         CS_TABFN, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,  KC_K,    KC_L,    SEX_ODIA,  SEX_ADIA,
         KC_LSFT,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,  KC_COMM, KC_DOT,  SEX_MINS,  KC_ENT ,
-        KC_LCTL,  KC_LGUI, KC_LALT, KC_LALT, MO(_XLOWER),   KC_SPC,  KC_SPC,  MO(_XRAISE), S(KC_COMM), S(KC_DOT), KC_DOWN, KC_UP
+        KC_LCTL,  KC_LGUI, KC_LALT, KC_BSPC, MO(_XLOWER),   KC_SPC,  KC_SPC,  MO(_XRAISE), S(KC_COMM), S(KC_DOT), KC_DOWN, KC_UP
     ),
     [_XLOWER] = LAYOUT_ortho_4x12(
         KC_F2  , _______, SE_DQUO, SEX_HASH, SEX_AT,   NO_TILD, SEX_PERC, SEX_LCBR, SEX_RCBR, SEX_EXLM,    SEX_PLUS, SEX_MINS,
 	KC_F12 , _______, KC_BSLS, SEX_ASTR, SEX_BSLS, NO_CIRC, SEX_DLR,  SEX_LBRC, SEX_RBRC, SEX_LABK,    SEX_QUES, SEX_EXLM,
         _______, _______, KC_F12,  SEX_AMPR, SEX_SLSH, SEX_PIPE, SEX_EQL, SEX_LPRN, SEX_RPRN, SEX_RABK,    SEX_ASTR, SEX_EQL,
-        _______, _______, _______, _______, _______, KC_BSPC, KC_BSPC,  MO(_ADJUST), _______, _______, _______, _______
+        _______, _______, _______, _______, _______, _______, _______,  MO(_ADJUST), _______, _______, _______, _______
     ),
     [_XRAISE] = LAYOUT_ortho_4x12(
         _______, KC_F10,  KC_F11, KC_F13,  _______, _______, _______, KC_7,     KC_8, KC_9 , SEX_RABK,  _______,
